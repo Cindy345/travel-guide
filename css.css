@@ -8,7 +8,12 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(136, 217, 255);
+    background-image: url(images/MicrosoftTeams-image\ \(19\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
 }
 
 body,
@@ -29,10 +34,10 @@ li {
     width: 100%;
     text-decoration: none;
     text-align: center;
-    background-color: #ecb975;
     padding: 15px;
     display: flex;
     justify-content: space-between;
+    background: rgba(24, 51, 87, 0.2);
     
 }
 
@@ -42,7 +47,7 @@ li {
 }
 
 .topnav a {
-    color: rgb(153, 0, 255);
+    color: rgb(132, 0, 255);
     text-decoration: none;
     font-family: "Comfortaa", sans-serif;
     font-size: 25px;
@@ -54,12 +59,21 @@ li {
 }
 
 .middlerow{
-    background-color: rgb(253, 138, 138);
     padding: 100px;
     height: 600px;
     text-align: left;
     font-size: 50px;
-    background-image: url(images/40c09cf488cd4c575b5fb58e942fd581.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    color: rgb(205, 255, 182);
+}
+
+.bottombutnotfooter{
+    background-color: aqua;
+}
+
+footer{
+    background-color: aqua;
+    padding: 10px;
 }
