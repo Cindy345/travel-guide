@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home | Welcome to our travelling guide!</title>
-  <link rel="stylesheet" href="/home/css.css" />
+  <link rel="stylesheet" href="/topnav/contact.css" />
   <link rel="shortcut icon" href="/images/travelguidefavicon.ico" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,23 +16,44 @@
 </head>
 
 <body>
-  <ul class="navbar">
-    <a href="/home/index.html"><img src="/images/Untitled_design-removebg-preview.png" class="logo" /></a>
 
-    <li><a href="/topnav/contact.html" class="slayqueen">Contact</a></li>
-    <li><a href="/topnav/aboutus.html">About Us</a></li>
+  <body>
+    <div class="nav">
+      <ul class="navbar"><a href="/home/index.html"><img src="/images/Untitled_design-removebg-preview.png"
+            class="logo" /></a>
 
-    <li class="dropdown">
-      <a href="#" class="dropdownbtn">Destinations <i class="fa-solid fa-caret-down"
-          style="padding: 2px; margin: 1px;"></i></a>
-      <div class="dropdownmenu">
-        <a href="/topnav/korea.html">Korea</a>
-        <a href="/topnav/thailand.html">Thailand</a>
-        <a href="/topnav/japan.html">Japan</a>
-      </div>
-    </li>
-  </ul>
+        <li><a href="/topnav/contact.html" class="slayqueen">Contact</a></li>
+        <li><a href="/topnav/aboutus.html">About Us</a></li>
 
-<marquee behavior="alternate"  direction="left">
-<h1 style="color: rgb(0, 11, 105);">Discord <i class="fa-brands fa-discord"></i></h1>
-cst6900</marquee>
+        <li class="dropdown">
+          <a href="#" class="dropdownbtn">Destinations <i class="fa-solid fa-caret-down"
+              style="padding: 2px; margin: 1px;"></i></a>
+          <div class="dropdownmenu">
+            <a href="/topnav/korea.html">Korea</a>
+            <a href="/topnav/thailand.html">Thailand</a>
+            <a href="/topnav/japan.html">Japan</a>
+          </div>
+
+          <box-icon name='menu' id="menu-icon" color="red"></box-icon>
+
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="contact" style="margin: auto; padding: 2rem; background-color: antiquewhite; height: 100vh;">
+      <h2 style="padding: 10px 30px;">Contact</h2>
+      <hr style="width:400px; ">
+      <h6 style=" margin-top:10px; rgba (17, 0, 14); font-size: 20px;">You can contact us below if you have any
+        feedback.</h6>
+
+      <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <label for="text">Message: </label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <button >Submit</button>
+      </form>
+    </div>
+
+  </body>

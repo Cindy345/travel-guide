@@ -18,6 +18,7 @@ body {
     align-items: center;
     padding: 15px;
     font-size: 20px;
+    z-index: 10001;
 }
 
 .fa-solid,
@@ -92,9 +93,11 @@ li.dropdown {
 #menu-icon {
     width: 35px;
     height: 5px;
-    background-color: rgb(255, 201, 201);
+    background-color: rgb(255, 179, 36);
     margin: 6px 0;
     display: none;
+    z-index: 10000;
+    cursor: pointer;
 }
 
 /*Welcome to hell!*/
@@ -149,6 +152,10 @@ li.dropdown {
     overflow: auto;
 }
 
+.lading h2 {
+    padding: 10px;
+}
+
 .lading img {
     width: 20%;
     height: auto;
@@ -164,9 +171,12 @@ li.dropdown {
 }
 
 .korea img {
+    display: block;
     width: 550px;
     height: 520px;
     border-radius: 8px;
+    margin-right: auto;
+    margin-left: auto;
     opacity: 0.4;
 }
 
@@ -220,6 +230,11 @@ li.dropdown {
     opacity: 1.0;
 }
 
+.japan h2 a:hover {
+    color: rgb(189, 255, 172);
+    transition: 0.3s;
+}
+
 .footer {
     background-color: rgb(43, 43, 43);
     color: white;
@@ -268,28 +283,4 @@ li.dropdown {
 .footcontainer a:hover {
     color: azure;
     transition: 0.3s;
-}
-
-@media screen and (max-width: 1090px) {
-    #menu-icon {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .navbar {
-        position: absolute;
-        top: 100%;
-        width: 100%;
-
-    }
-
-    .footer {
-        height: 50vh;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .footer {
-        padding-top: 2rem;
-    }
 }

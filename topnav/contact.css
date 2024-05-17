@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgba(255, 255, 255, 0.445);
+    background: #fffcfc;
 }
 
 .navbar {
@@ -18,6 +18,7 @@ body {
     align-items: center;
     padding: 15px;
     font-size: 20px;
+    z-index: 10001;
 }
 
 .fa-solid,
@@ -81,7 +82,7 @@ li.dropdown {
 }
 
 .dropdownmenu a:hover {
-    background-color: #b3c8cf7c;
+    background-color: #b3c8cf54;
     border-radius: 10px;
 }
 
@@ -89,53 +90,38 @@ li.dropdown {
     display: block;
 }
 
-
-/*Thailand profile*/
-
-.middlething {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/image_processing20220915-4-ygy6ut.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 60vh;
+#menu-icon {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(36, 248, 255);
+    margin: 6px 0;
+    display: none;
+    z-index: 10000;
+    cursor: pointer;
 }
 
-.chingchonghonchi {
-    padding: 30px 50px;
+/*Marquee*/
+
+.contact h2 {
+    color: #A79277;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
 }
 
-.bbg {
-    padding: 10px 50px;
+.contact hr {
+    right: 10%;
 }
 
-@media (min-width: 1024px) {
-    .middlepart {
-        padding: 20px 10px;
-    }
+label {
+    display: block;
+    margin: 10px;
+    text-align: left;
 }
 
-.middlepart {
-    background-color: antiquewhite;
-    margin-top: 10px;
-}
-
-.container h2 {
-    font-size: 16px;
-    line-height: 1.5;
-    padding: 10px 50px;
-    background: linear-gradient(to right, #ff9ac1, #503e33,#cf23cf, #eedd44);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
-.container h3 {
-    font-size: 16px;
-    line-height: 1.5;
-    padding: 10px 50px;
-}
-
-
-@media screen and (min-width:1280px) {
-    .container {
-        max-width: 1280px;
-    }
+input {
+    width: 955px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgb(38, 96, 255);
+    padding: 14px 20px;
 }
