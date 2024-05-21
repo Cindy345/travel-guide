@@ -105,6 +105,12 @@ li.dropdown {
     padding: 30px 50px;
 }
 
+.chingchonghonchi h2 {
+    background-image: linear-gradient(to left, #9abbab, #ff9c9c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .card-container {
     display: flex;
     justify-content: center;
@@ -185,7 +191,7 @@ li.dropdown {
 .overlay {
 	width: 100%;
 	height: 0;
-	background: linear-gradient(transparent,#ffaaaa 58%);
+	background: linear-gradient(transparent,#201b1b 58%);
 	border-radius: 10px;
 	position: absolute;
 	left: 0;
